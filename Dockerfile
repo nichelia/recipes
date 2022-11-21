@@ -1,14 +1,15 @@
-# syntax = docker/dockerfile:1.4
-
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.9-slim AS builder
-
+FROM python:python3.9-slim AS builder
+ 
 WORKDIR /app
 
 COPY requirements.txt ./
+
 RUN --mount=type=cache,target=/root/.cache/pip \
-    pip install -r requirements.txt
+    pip install --upgrade -r requirements.txt
 
 COPY ./app ./app
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
 
 FROM builder as dev-envs
 
