@@ -1,60 +1,39 @@
-## Compose sample application
+# gousto-recipes
 
-### Use with Docker Development Environments
+[TODO] About
 
-You can open this sample in the Dev Environments feature of Docker Desktop version 4.12 or later.
+## Development
 
-[Open in Docker Dev Environments <img src="../open_in_new.svg" alt="Open in Docker Dev Environments" align="top"/>](https://open.docker.com/dashboard/dev-envs?url=https://github.com/docker/awesome-compose/tree/master/fastapi)
+### Prerequisites
 
-### Python/FastAPI application
+- [Docker Desktop](https://docs.docker.com/desktop/release-notes/)
+- [Docker Dev Environments enabled](https://docs.docker.com/desktop/dev-environments/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio Code Remote Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
-Project structure:
-```
-├── compose.yaml
-├── Dockerfile
-├── requirements.txt
-├── app
-    ├── main.py
-    ├── __init__.py
 
-```
+For convinience, you can use the link below to open the project in the Dev Environments of Docker Desktop:
 
-[_compose.yaml_](compose.yaml)
-```
-services:
-  api:
-    build: .
-    container_name: fastapi-application
-    environment:
-      PORT: 8000
-    ports:
-      - '8000:8000'
-    restart: "no"
+[Start Development](https://open.docker.com/dashboard/dev-envs?url=https://github.com/nichelia/gousto-recipes/tree/main)
 
+Alternatively, you can execute the below command on your terminal:
+
+```bash
+docker dev create https://github.com/nichelia/gousto-recipes/tree/main
 ```
 
-## Deploy with docker compose
+Under the `Docker Dashboard / Dev Environments`, you can click the `Open in VSCode` button.
+You can do the same with CLI:
 
-```shell
-docker-compose up -d --build
+```bash
+docker dev open [dev_env_name] [container_ref]
 ```
-## Expected result
+where `dev_env_name` can be obtained by running `docker dev list` and `container_ref` by running `docker ps -a`.
 
-Listing containers must show one container running and the port mapping as below:
-```
-$ docker ps
-CONTAINER ID   IMAGE          COMMAND       CREATED              STATUS              PORTS                                               NAMES
-7087a6e79610   5c1778a60cf8   "/start.sh"   About a minute ago   Up About a minute   80/tcp, 0.0.0.0:8000->8000/tcp, :::8000->8000/tcp   fastapi-application
-```
-
-After the application starts, navigate to `http://localhost:8000` in your web browser and you should see the following json response:
-```
-{
-"message": "OK"
-}
+Once in VSCode, open `Terminal` and execute the below. The terminal should open within the docker container running the development code.
+Make sure that your `pwd` is `/com.docker.devenvironments.code`.
+```bash
+uvicorn app.main:app --host 0.0.0.0 --port 80 --reload
 ```
 
-Stop and remove the containers
-```
-$ docker compose down
-```
+A new VSCode pop up will appear with the message `Your application running on port 80 is available.`. Click `Open in browser`. VSCode automatically maps the container port to host port. If you missed the dialogue, you can check the mapped port under `Ports` window of VSCode.
