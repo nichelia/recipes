@@ -2,12 +2,10 @@ services:
   api:
     build:
       context: .
-      target: dev-envs
+      target: builder
     container_name: fastapi-application
     environment:
       PORT: 8000
     ports:
       - '8000:8000'
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
     restart: "no"

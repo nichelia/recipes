@@ -1,25 +1,60 @@
-# single-dev-env
-Example used to try a single container sample of Docker Dev Environments
+## Compose sample application
 
-## Run the application
-You can simply use `make run` command or do it yourself with `go run main.go`
+### Use with Docker Development Environments
 
-Those commands will start a http server listening on port `8080` 
-and if your request `http://localhost:8080` you'll see the following output: 
-```shell
-❯ curl http://localhost:8080
+You can open this sample in the Dev Environments feature of Docker Desktop version 4.12 or later.
 
-          ##         .
-    ## ## ##        ==
- ## ## ## ## ##    ===
-/"""""""""""""""""\___/ ===
-{                       /  ===-
-\______ O           __/
- \    \         __/
-  \____\_______/
+[Open in Docker Dev Environments <img src="../open_in_new.svg" alt="Open in Docker Dev Environments" align="top"/>](https://open.docker.com/dashboard/dev-envs?url=https://github.com/docker/awesome-compose/tree/master/fastapi)
 
+### Python/FastAPI application
 
-Hello from Docker!
+Project structure:
+```
+├── compose.yaml
+├── Dockerfile
+├── requirements.txt
+├── app
+    ├── main.py
+    ├── __init__.py
 
 ```
 
+[_compose.yaml_](compose.yaml)
+```
+services:
+  api:
+    build: .
+    container_name: fastapi-application
+    environment:
+      PORT: 8000
+    ports:
+      - '8000:8000'
+    restart: "no"
+
+```
+
+## Deploy with docker compose
+
+```shell
+docker-compose up -d --build
+```
+## Expected result
+
+Listing containers must show one container running and the port mapping as below:
+```
+$ docker ps
+CONTAINER ID   IMAGE          COMMAND       CREATED              STATUS              PORTS                                               NAMES
+7087a6e79610   5c1778a60cf8   "/start.sh"   About a minute ago   Up About a minute   80/tcp, 0.0.0.0:8000->8000/tcp, :::8000->8000/tcp   fastapi-application
+```
+
+After the application starts, navigate to `http://localhost:8000` in your web browser and you should see the following json response:
+```
+{
+"message": "OK"
+}
+```
+
+Stop and remove the containers
+```
+$ docker compose down
+```
