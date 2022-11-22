@@ -1,0 +1,606 @@
+{
+    "url": "/broccoli-pesto-and-pangrattato-with-spinach-ricotta-ravioli",
+    "title": "Broccoli Pesto And Pangrattato With Spinach & Ricotta Ravioli",
+    "categories": [
+        {
+            "title": "All Recipes",
+            "url": "/recipes",
+            "uid": "blt99b86694701028c1"
+        }
+    ],
+    "gousto_id": "4712",
+    "gousto_uid": "72ededcb-e405-4667-8277-5004ad1d7a19",
+    "media": {
+        "images": [
+            {
+                "image": "https://production-media.gousto.co.uk/cms/mood-image/4567---Broccoli-Pesto-With-Spinach--Ricotta-Ravioli-And-Pangrattato1322-1652775374237-x200.jpg",
+                "width": 200
+            },
+            {
+                "image": "https://production-media.gousto.co.uk/cms/mood-image/4567---Broccoli-Pesto-With-Spinach--Ricotta-Ravioli-And-Pangrattato1322-1652775374237-x400.jpg",
+                "width": 400
+            },
+            {
+                "image": "https://production-media.gousto.co.uk/cms/mood-image/4567---Broccoli-Pesto-With-Spinach--Ricotta-Ravioli-And-Pangrattato1322-1652775374237-x700.jpg",
+                "width": 700
+            },
+            {
+                "image": "https://production-media.gousto.co.uk/cms/mood-image/4567---Broccoli-Pesto-With-Spinach--Ricotta-Ravioli-And-Pangrattato1322-1652775374237-x1000.jpg",
+                "width": 1000
+            },
+            {
+                "image": "https://production-media.gousto.co.uk/cms/mood-image/4567---Broccoli-Pesto-With-Spinach--Ricotta-Ravioli-And-Pangrattato1322-1652775374237-x1500.jpg",
+                "width": 1500
+            }
+        ]
+    },
+    "rating": {
+        "average": 4,
+        "count": 2704
+    },
+    "description": "This twist will broc your world. Blitz together broccoli, Italian cheese, almonds and lemon juice into a smooth pesto and fold it into your ravioli. Top with crispy lemon pangrattato and hey pesto, dinner's ready in 10. ",
+    "prep_times": {
+        "for_2": 10,
+        "for_4": 10
+    },
+    "cuisine": {
+        "slug": "italian",
+        "title": "Italian"
+    },
+    "ingredients": [
+        {
+            "label": "30g grated Italian hard cheese",
+            "title": "30g grated Italian hard cheese-I-09-DAI-CH-42",
+            "uid": "blt3eb104a464573b1e",
+            "name": "30g grated Italian hard cheese",
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/grated-italian-hard-cheese-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/grated-italian-hard-cheese-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/grated-italian-hard-cheese-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/grated-italian-hard-cheese-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/grated-italian-hard-cheese-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            },
+            "allergens": {
+                "allergen": [
+                    {
+                        "slug": "milk"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "15g flaked almonds",
+            "title": "15g flaked almonds-I-04-NUT-NT-01-15",
+            "uid": "bltdf1bce5835521a70",
+            "name": "15g flaked almonds",
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/flaked-almonds-1-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/flaked-almonds-1-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/flaked-almonds-1-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/flaked-almonds-1-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/flaked-almonds-1-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            },
+            "allergens": {
+                "allergen": [
+                    {
+                        "slug": "nut"
+                    },
+                    {
+                        "slug": "peanut"
+                    },
+                    {
+                        "slug": "sesame"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "1 lemon",
+            "title": "1 lemon-I-02-SVG-SF-03",
+            "uid": "blte823ccfd82fc22c7",
+            "name": "1 lemon",
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/lemon-admin-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/lemon-admin-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/lemon-admin-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/lemon-admin-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/lemon-admin-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            },
+            "allergens": {
+                "allergen": []
+            }
+        },
+        {
+            "label": "160g Tenderstem broccoli",
+            "title": "160g Tenderstem broccoli-I-05-FVG-LF-50",
+            "uid": "blt53c48078da17da1b",
+            "name": "160g Tenderstem broccoli",
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/80g-tenderstem-broccoli-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/80g-tenderstem-broccoli-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/80g-tenderstem-broccoli-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/80g-tenderstem-broccoli-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/80g-tenderstem-broccoli-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            },
+            "allergens": {
+                "allergen": []
+            }
+        },
+        {
+            "label": "30g panko breadcrumbs",
+            "title": "30g panko breadcrumbs-IQ-07-GRN-FL-09-01",
+            "uid": "blt0a0073cbb9b46ccf",
+            "name": "30g panko breadcrumbs",
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/30g-panko-breadcrumbs-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/30g-panko-breadcrumbs-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/30g-panko-breadcrumbs-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/30g-panko-breadcrumbs-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/30g-panko-breadcrumbs-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            },
+            "allergens": {
+                "allergen": [
+                    {
+                        "slug": "gluten"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "250g spinach and ricotta ravioli",
+            "title": "250g spinach and ricotta ravioli-I-03-GRN-PA-50",
+            "uid": "bltbdfaebcb3617159a",
+            "name": "250g spinach and ricotta ravioli",
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/Ravioli-copy-2-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/Ravioli-copy-2-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/Ravioli-copy-2-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/Ravioli-copy-2-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/Ravioli-copy-2-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            },
+            "allergens": {
+                "allergen": [
+                    {
+                        "slug": "gluten"
+                    },
+                    {
+                        "slug": "egg"
+                    },
+                    {
+                        "slug": "soya"
+                    },
+                    {
+                        "slug": "milk"
+                    },
+                    {
+                        "slug": "mustard"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "1 garlic clove",
+            "title": "1 garlic clove-I-06-SML-OT-02",
+            "uid": "bltb25c60cccec7cd15",
+            "name": "1 garlic clove",
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/garlic-copy-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/garlic-copy-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/garlic-copy-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/garlic-copy-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/ingredient-image/garlic-copy-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            },
+            "allergens": {
+                "allergen": []
+            }
+        }
+    ],
+    "basics": [
+        {
+            "title": "Olive oil",
+            "slug": "olive-oil"
+        },
+        {
+            "title": "Pepper",
+            "slug": "pepper"
+        },
+        {
+            "title": "Salt",
+            "slug": "salt"
+        }
+    ],
+    "cooking_instructions": [
+        {
+            "instruction": "<p><strong>Before you begin...</strong></p><p>Get all your ingredients and equipment ready</p><p>Skim through these steps, then wash your fruit and veg</p><p>Note: Equipment and pan sizes vary. Make sure you cook food thoroughly (even if it takes you a little longer than 10 min)</p>",
+            "order": 1,
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/Admin10mm-Step-1-1652715892220-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/Admin10mm-Step-1-1652715892220-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/Admin10mm-Step-1-1652715892220-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/Admin10mm-Step-1-1652715892220-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/Admin10mm-Step-1-1652715892220-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            }
+        },
+        {
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil a kettle</p><p>Heat a large, wide-based pan (preferably non-stick) with 1 tbsp <span class=\"text-danger\">[2 tbsp]</span> <strong>olive oil</strong> over a medium-high heat</p><p>Once hot, add the<strong> panko breadcrumbs </strong>and a pinch of <strong>salt</strong></p><p>Cook for 6-8 min or until golden, stirring frequently</p>",
+            "order": 2,
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-2-1652715900413-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-2-1652715900413-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-2-1652715900413-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-2-1652715900413-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-2-1652715900413-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            }
+        },
+        {
+            "instruction": "<p>Meanwhile, peel the<strong> garlic</strong></p><p>Zest the <strong>lemon<span class=\"text-danger\">[s]</span> </strong>(try to grate lightly with a micro-plane or sharp box grater and avoid grating the white pith, as this is very bitter), then roll with your hand on a hard surface (to release more juice) and cut in half</p><p>Chop the <strong>Tenderstem broccoli</strong> in half</p>",
+            "order": 3,
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-3-1652715905445-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-3-1652715905445-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-3-1652715905445-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-3-1652715905445-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-3-1652715905445-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            }
+        },
+        {
+            "instruction": "<p>Add the <strong>spinach & ricotta ravioli</strong> and<strong> halved broccoli </strong>to a pot of <strong>boiled water</strong> and bring to the boil over a high heat</p><p>Cook for 3-4 min or until cooked with a slight bite</p><p>Once done, drain the tortelloni and broccoli, reserving the pot and a cup of the<strong> starchy pasta water</strong></p>",
+            "order": 4,
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-4-1652715910547-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-4-1652715910547-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-4-1652715910547-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-4-1652715910547-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-4-1652715910547-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            }
+        },
+        {
+            "instruction": "<p>Add <strong>half</strong> the <strong>cooked</strong> <strong>broccoli</strong> (save the rest for later!) to a <strong>food processor </strong>with the <strong>peeled garlic</strong>,<strong> flaked almonds </strong>and <strong>half</strong> the <strong>grated Italian hard cheese </strong>(you'll use the rest later)</p><p>Add the juice of 1/2 <span class=\"text-danger\">[1]</span> <strong>lemon</strong>, 2.5 tbsp <span class=\"text-danger\">[4 tbsp]</span> <strong>olive oil </strong>and a pinch of <strong>salt </strong>and<strong> pepper</strong></p>",
+            "order": 5,
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-5-1652715915346-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-5-1652715915346-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-5-1652715915346-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-5-1652715915346-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-5-1652715915346-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            }
+        },
+        {
+            "instruction": "<p>Blitz until you are left with a smooth paste \u2013 this is your<strong> broccoli pesto</strong></p><p>Cut the<strong> remaining lemon </strong>into wedges</p><p>Once the breadcrumbs are golden, transfer them to a bowl with the <strong>lemon zest</strong>,<strong> </strong>give everything a good mix up<strong> </strong>and set aside for serving \u2013 this is your <strong>lemony pangrattato</strong></p>",
+            "order": 6,
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-6-1652715920895-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-6-1652715920895-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-6-1652715920895-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-6-1652715920895-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-6-1652715920895-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            }
+        },
+        {
+            "instruction": "<p>Return the reserved pot to a medium heat and add the<strong> drained ravioli </strong>and <strong>remaining broccoli</strong></p><p>Add the <strong>broccoli pesto</strong> and stir gently until the pasta is nicely coated in the pesto and everything is warmed through \u2013 this is your <strong>broccoli pesto ravioli</strong></p><p>Tip: Add a splash of starchy pasta water if your sauce is looking a little dry</p>",
+            "order": 7,
+            "media": {
+                "images": [
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-7-1652715925554-x200.jpg",
+                        "width": 200
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-7-1652715925554-x400.jpg",
+                        "width": 400
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-7-1652715925554-x700.jpg",
+                        "width": 700
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-7-1652715925554-x1000.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "image": "https://production-media.gousto.co.uk/cms/recipe-step-image/step-7-1652715925554-x1500.jpg",
+                        "width": 1500
+                    }
+                ]
+            }
+        },
+        {
+            "instruction": "<p>Serve the <strong>broccoli pesto ravioli</strong> with the <strong>lemony pangrattato </strong>on top and <strong>lemon wedges</strong> to the side</p><p>Garnish with the <strong>remaining grated Italian hard cheese</strong>, a grind of <strong>black pepper </strong>and a drizzle of <strong>olive oil</strong></p><p>Enjoy!</p>",
+            "order": 8,
+            "media": {
+                "images": []
+            }
+        }
+    ],
+    "allergens": [
+        {
+            "title": "gluten",
+            "slug": "gluten"
+        },
+        {
+            "title": "egg",
+            "slug": "egg"
+        },
+        {
+            "title": "soya",
+            "slug": "soya"
+        },
+        {
+            "title": "milk",
+            "slug": "milk"
+        },
+        {
+            "title": "mustard",
+            "slug": "mustard"
+        },
+        {
+            "title": "nut",
+            "slug": "nut"
+        },
+        {
+            "title": "peanut",
+            "slug": "peanut"
+        },
+        {
+            "title": "sesame",
+            "slug": "sesame"
+        }
+    ],
+    "seo": {
+        "title": "Broccoli Pesto And Pangrattato With Spinach & Ricotta Ravioli",
+        "description": "This twist will broc your world. Blitz together broccoli, Italian cheese, almonds and lemon juice into a smooth pesto and fold it into your tortelloni. Top with crispy lemon pangrattato and hey pesto, dinner's ready in 10. ",
+        "robots": [],
+        "canonical": "",
+        "open_graph_image": "https://s3-eu-west-1.amazonaws.com/s3-gousto-production-media/cms/mood-image/4567---Broccoli-Pesto-With-Spinach--Ricotta-Ravioli-And-Pangrattato1322-1652775374237.jpg"
+    },
+    "tags": [],
+    "uid": "blte9145422b95e9c2c",
+    "_version": 2714,
+    "nutritional_information": {
+        "per_hundred_grams": {
+            "energy_kcal": 182,
+            "energy_kj": 753,
+            "fat_mg": 7474,
+            "fat_saturates_mg": 2579,
+            "carbs_mg": 19640,
+            "carbs_sugars_mg": 2665,
+            "fibre_mg": 2117,
+            "protein_mg": 7992,
+            "salt_mg": 766,
+            "net_weight_mg": 100000
+        },
+        "per_portion": {
+            "energy_kcal": 538,
+            "energy_kj": 2228,
+            "fat_mg": 22088,
+            "fat_saturates_mg": 7623,
+            "carbs_mg": 58037,
+            "carbs_sugars_mg": 7878,
+            "fibre_mg": 6258,
+            "protein_mg": 23617,
+            "salt_mg": 2265,
+            "net_weight_mg": 295500
+        }
+    }
+}
