@@ -1,6 +1,9 @@
 from typing import List
+import re
+from markdownify import markdownify as md
 from recipe_scrapers import scrape_me
 from recipe_scrapers.goustojson import GoustoJson
+import parse_ingredients
 
 from app.gousto.schemas import Ingredient, Recipe, GoustoQuery
 
@@ -26,7 +29,8 @@ def parse_basic_ingredient(raw_data: GoustoJson) -> Ingredient:
 
 
 def parse_ingredient(raw_data: GoustoJson) -> Ingredient:
-    name = raw_data.get("name", "")
+    parse_name = parse_ingredients.parse_ingredient(raw_data.get("name", ""))
+    name = parse_name.name if parse_name.name else parse_name.original_string
     image_url = ""
     if len(raw_data.get("media", {}).get("images", [])) > 0:
         image_url = raw_data["media"]["images"][0].get("image", "")
@@ -58,10 +62,11 @@ def parse_recipe(raw_data: GoustoJson, url:str) -> Recipe:
     nutritional_information_per_portion = [] # TODO
 
     for cooking_instruction in raw_data.data.get("cooking_instructions", []):
+        instruction = md(cooking_instruction.get("instruction", ""))
         if len(cooking_instruction.get("media", {}).get("images", [])) > 0:
-            instructions.append(f'{cooking_instruction["media"]["images"][0].get("image", "")} {cooking_instruction.get("instruction", "")}')
+            instructions.append(f'{cooking_instruction["media"]["images"][0].get("image", "")} {instruction}')
         else:
-            instructions.append(f'{cooking_instruction.get("instruction", "")}')
+            instructions.append(instruction)
 
     recipe = Recipe(
         name=name,
