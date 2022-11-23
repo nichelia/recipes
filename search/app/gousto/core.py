@@ -5,7 +5,7 @@ from recipe_scrapers import scrape_me
 from recipe_scrapers.goustojson import GoustoJson
 import parse_ingredients
 
-from app.gousto.schemas import Ingredient, Recipe, GoustoQuery
+from app.gousto.schemas import Ingredient, Recipe, Query
 
 
 def parse_ingredient_doses(raw_data: GoustoJson) -> List[str]:
@@ -50,7 +50,7 @@ def parse_recipe(raw_data: GoustoJson, url:str) -> Recipe:
     name = raw_data.title()
     description = raw_data.data.get("description", "")
     cover_image_url = raw_data.image()
-    gousto_rating = raw_data.data.get("rating", {}).get("average", 0)
+    recipe_rating = raw_data.data.get("rating", {}).get("average", 0)
     preperation_time_in_mins = raw_data.data.get("prep_times", {}).get("for_2", 0)
     cuisine = raw_data.data.get("cuisine", {}).get("title", "")
     ingredients = [parse_ingredient(data) for data in raw_data.data.get("ingredients", [])]
@@ -73,7 +73,7 @@ def parse_recipe(raw_data: GoustoJson, url:str) -> Recipe:
         description=description,
         cover_image_url=cover_image_url,
         url=url,
-        gousto_rating=gousto_rating,
+        recipe_rating=recipe_rating,
         preperation_time_in_mins=preperation_time_in_mins,
         cuisine=cuisine,
         ingredients=ingredients,
@@ -86,7 +86,7 @@ def parse_recipe(raw_data: GoustoJson, url:str) -> Recipe:
     return recipe
 
 
-def get_recipe(data: GoustoQuery) -> Recipe:
+def get_recipe(data: Query) -> Recipe:
     if not data.url:
         return 
     

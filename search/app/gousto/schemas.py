@@ -14,7 +14,7 @@ class Recipe(BaseModel):
     description: str
     cover_image_url: HttpUrl
     url: HttpUrl
-    gousto_rating: int
+    recipe_rating: int
     preperation_time_in_mins: int
     cuisine: str
     ingredients: List[Ingredient]
@@ -25,11 +25,11 @@ class Recipe(BaseModel):
     nutritional_information_per_portion: List[str]
 
 
-class GoustoQuery(BaseModel):
+class Query(BaseModel):
     url: str = ""
 
 
-class GoustoResponse(BaseModel):
+class Response(BaseModel):
     status: bool = True
     message: str = "Success"
     data: Recipe
