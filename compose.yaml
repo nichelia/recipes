@@ -1,9 +1,9 @@
 services:
-  api:
+  search:
     build:
-      context: .
-      target: builder
-    container_name: fastapi-application
+      context: ./search
+      target: build
+    container_name: search
     environment:
       PORT: 8000
     ports:
