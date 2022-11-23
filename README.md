@@ -1,4 +1,4 @@
-# gousto-recipes
+# recipes
 
 [TODO] About
 
@@ -14,12 +14,12 @@
 
 For convinience, you can use the link below to open the project in the Dev Environments of Docker Desktop:
 
-[Start Development](https://open.docker.com/dashboard/dev-envs?url=https://github.com/nichelia/gousto-recipes/tree/main)
+[Start Development](https://open.docker.com/dashboard/dev-envs?url=https://github.com/nichelia/recipes/tree/main)
 
 Alternatively, you can execute the below command on your terminal:
 
 ```bash
-docker dev create https://github.com/nichelia/gousto-recipes/tree/main
+docker dev create https://github.com/nichelia/recipes/tree/main
 ```
 
 Under the `Docker Dashboard / Dev Environments`, you can click the `Open in VSCode` button.
