@@ -16,9 +16,9 @@ services:
       - ALLOW_EMPTY_PASSWORD=yes
     expose:
       - 6379
-    restart: always
-    healthcheck:
-      test: test: ["CMD-SHELL", "redis-cli ping | grep PONG"]
-      interval: 3s
-      retries: 5
-      start_period: 30s
+#     restart: always
+#     healthcheck:
+#       test: test: ["CMD-SHELL", "redis-cli ping | grep PONG"]
+#       interval: 3s
+#       retries: 5
+#       start_period: 30s
