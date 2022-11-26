@@ -12,6 +12,7 @@ services:
       - queue
   queue:
     image: bitnami/redis:7.0
+    platform: linux/amd64
     environment:
       - ALLOW_EMPTY_PASSWORD=yes
     expose:
