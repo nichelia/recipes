@@ -2,6 +2,7 @@ from fastapi import FastAPI, status
 
 from app import config
 from app.router import api_router
+from redis_om import get_redis_connection
 
 
 app = FastAPI(title=config.PROJECT_NAME,
@@ -10,6 +11,13 @@ app = FastAPI(title=config.PROJECT_NAME,
               debug=config.DEBUG)
 
 app.include_router(api_router, prefix=config.API_V1_PREFIX)
+
+redis = get_redis_connection(
+    host="queue",
+    port=6379,
+    password="",
+    decode_responses=True
+)
 
 @app.get("/", tags=["Health check"])
 @app.get('/health', tags=["Health check"])
