@@ -1,16 +1,28 @@
 import os
+from functools import lru_cache
 
-from starlette.config import Config
-from starlette.datastructures import CommaSeparatedStrings
+from pydantic import AnyUrl, BaseSettings
 
-env_files = ["config.env"]
+from app.logger import get_logger
 
-config = Config()
-for env_file in env_files:
-    if os.path.exists(env_file):
-        config = Config(env_file)
+logger = get_logger(__name__)
 
-API_V1_PREFIX = config("API_V1_PREFIX", cast=str)
-DEBUG = config("DEBUG", cast=bool)
-PROJECT_NAME = config("PROJECT_NAME", cast=str)
-VERSION = config("VERSION", cast=str, default="1.0.0")
+
+class Settings(BaseSettings):
+    debug: str = os.getenv("DEBUG", "1")
+    testing: str = os.getenv("TESTING", "0")
+    api_v1_prefix: str = os.getenv("API_V1_PREFIX", "/api/v1")
+    project_name: str = os.getenv("PROJECT_NAME", "search")
+    version: str = os.getenv("VERSION", "0.0.0")
+    queue_url: AnyUrl = os.environ.get("QUEUE_URL", "redis://queue")
+    queue_password: str = os.getenv("QUEUE_PASSWORD", "")
+    queue_db: int = int(os.getenv("QUEUE_DB", "0"))
+    running: str = "up"
+    not_running: str = "down"
+    web_server: str = "Web Server"
+
+
+@lru_cache()
+def get_settings() -> BaseSettings:
+    logger.info("Loading config settings from the environment...")
+    return Settings()
