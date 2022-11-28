@@ -23,13 +23,3 @@ class Recipe(BaseModel):
     allergens: List[str]
     nutritional_information_per_grams: List[str]
     nutritional_information_per_portion: List[str]
-
-
-class Query(BaseModel):
-    url: str = ""
-
-
-class Response(BaseModel):
-    status: bool = True
-    message: str = "Success"
-    data: Recipe

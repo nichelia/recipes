@@ -86,10 +86,10 @@ def parse_recipe(raw_data: GoustoJson, url:str) -> Recipe:
     return recipe
 
 
-def get_recipe(data: Query) -> Recipe:
-    if not data.url:
-        return 
+def get_recipe(url: str) -> Recipe:
+    if not url:
+        raise ValueError('Url of gousto recipe not provided') 
     
-    scraper = scrape_me(data.url)
-    recipe = parse_recipe(scraper, data.url)
+    scraper = scrape_me(url)
+    recipe = parse_recipe(scraper, url)
     return recipe
