@@ -17,7 +17,7 @@ dag = DAG(
 dag.trigger_arguments = {"url": "string"}
 
 task = PythonOperator(
-    task_id="hello_world_task",
+    task_id="gousto_task",
     python_callable=get_recipe,
     provide_context=True,
     dag=dag)
