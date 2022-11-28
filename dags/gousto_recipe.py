@@ -11,11 +11,8 @@ from gousto.core import get_recipe
 def process_recipe(**kwargs):
     dag_run_conf = kwargs["dag_run"].conf
     url = dag_run_conf.get("url", None)
-
-    if not url:
-        raise ValueError('Url of gousto recipe not provided')
-
     data = get_recipe(url=url)
+    
     if not data:
         raise ValueError('Recipe not found')
 
