@@ -16,7 +16,10 @@ def process_recipe(**kwargs):
         raise ValueError('Url of gousto recipe not provided')
 
     data = get_recipe(url=url)
-    return data
+    if not data:
+        raise ValueError('Recipe not found')
+
+    return data.dict()
 
 
 dag = DAG(
