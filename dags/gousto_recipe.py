@@ -11,6 +11,7 @@ def get_recipe(**kwargs):
 dag = DAG(
     dag_id="gousto_dag",
     description="Search gousto recipe",
+    start_date=datetime(2022, 11, 1),
     schedule_interval=None
 )
 
