@@ -33,8 +33,8 @@ helm upgrade airflow apache-airflow/airflow \
     --namespace airflow \
     --install \
     --create-namespace \
-    --set dags.gitSync.enabled=true
-    --set dags.gitSync.repo: https://github.com/nichelia/recipes.git
-    --set dags.gitSync.branch: airflow-implementation
-    --set dags.gitSync.subPath: "dags"
+    --set dags.gitSync.enabled=true \
+    --set dags.gitSync.repo="https://github.com/nichelia/recipes.git" \
+    --set dags.gitSync.branch="airflow-implementation" \
+    --set dags.gitSync.subPath="dags"
 ```
