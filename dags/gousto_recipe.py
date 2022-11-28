@@ -8,7 +8,7 @@ from airflow.operators.python import PythonOperator
 from gousto.core import get_recipe
 
 
-def process_recipe(**kwargs) -> GoustoJson:
+def process_recipe(**kwargs):
     dag_run_conf = kwargs["dag_run"].conf
     url = dag_run_conf.get("url", None)
 
