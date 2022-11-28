@@ -24,7 +24,7 @@ kubectl cluster-info --context kind-kind
 
 Build custom Docker image for Airflow to load required Python packages:
 ```bash
-docker build --pull --tag airflow-gousto:0.0.0 .
+docker build --pull --tag airflow-gousto:0.0.0 --target prod .
 ```
 
 Load the image to `kind`:
