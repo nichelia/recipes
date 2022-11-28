@@ -5,10 +5,10 @@ import re
 from airflow import DAG
 from airflow import AirflowException
 from airflow.operators.python import PythonOperator
-from markdownify import markdownify as md
-from recipe_scrapers import scrape_me
-from recipe_scrapers.goustojson import GoustoJson
-import parse_ingredients
+# from markdownify import markdownify as md
+# from recipe_scrapers import scrape_me
+# from recipe_scrapers.goustojson import GoustoJson
+# import parse_ingredients
 
 
 def get_recipe(**kwargs):
