@@ -5,7 +5,7 @@ from recipe_scrapers import scrape_me
 from recipe_scrapers.goustojson import GoustoJson
 import parse_ingredients
 
-from gousto.schemas import Ingredient, Recipe
+from schemas import Ingredient, Recipe
 
 
 def parse_ingredient_doses(raw_data: GoustoJson) -> List[str]:
