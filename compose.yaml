@@ -1,9 +1,0 @@
-version: '3'
-
-services:
-  search:
-    build:
-      context: ./search
-      target: build
-    container_name: search
-    restart: "no"

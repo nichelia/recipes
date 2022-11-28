@@ -1,8 +1,4 @@
-fastapi==0.70.0
 pydantic==1.8.2
-uvicorn==0.15.0
 recipe-scrapers==14.23.0
-starlette==0.16.0
-isort==5.10.1
 markdownify==0.11.6
 parse-ingredients==0.0.4
